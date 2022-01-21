@@ -1,0 +1,30 @@
+.form-container div{
+    margin: 10px;
+}
+
+
+input:invalid {
+    border: dashed red 2px;
+    background-color: bisque;
+}
+
+input:valid {
+    border: solid black 2px;
+    background-color: lavender
+}
+
+.error {
+    width  : 100%;
+    padding: 0;
+  
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+  
+    box-sizing: border-box;
+  }
+  
+  .error.active {
+    padding: 0.3em;
+  }
